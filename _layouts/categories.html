@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% assign assets_base_url = site.url %}
+{% if site.cdn.jsdelivr.enabled %}
+{% assign assets_base_url = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: '@master' %}
+{% endif %}
+<section class="container content">
+    <div class="columns">
+        <div class="column two-thirds" >
+            <article class="article-content markdown-body">
+                {{ content }}
+            </article>
+        </div>
+    </div>
+</section>

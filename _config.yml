@@ -6,6 +6,21 @@ baseurl: ""
 url: "http://mileistone.github.io"
 github_username:  mileistone
 
+cdn:
+    jsdelivr:
+        enabled: true
+
+navs:
+    -
+        href: /
+        label: Home
+    -
+        href: /categories/
+        label: Categories
+    -
+        href: /about/
+        label: About
+
 # Build settings
 markdown: kramdown
 permalink: pretty
@@ -15,3 +30,4 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+
