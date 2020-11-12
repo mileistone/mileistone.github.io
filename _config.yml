@@ -1,7 +1,7 @@
 # Site settings
 title: mileistone blog
 email: xyc_sjtu@163.com
-description: "Computer Vision and Insight"
+description: "Vision and Insight"
 baseurl: ""
 url: "http://mileistone.github.io"
 github_username:  mileistone
