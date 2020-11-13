@@ -4,7 +4,7 @@ comments: true
 title:  关于Vision Transformer的一些思考
 excerpt: Self-attention与CNN的恩怨情仇
 categories: Work
-date: 2020-11-16 14:00:00
+date: 2020-11-06 14:00:00
 ---
 
 ##### 自相矛盾
