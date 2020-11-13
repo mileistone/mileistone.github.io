@@ -2,8 +2,8 @@
 layout: post
 comments: true
 title:  "关于Vision Transformer的一些思考"
-excerpt: "关于Vision Transformer的一些思考"
-date:   2020-11-16 14:00:00
+categories: Work
+date: 2020-11-16 14:00:00
 ---
 
 ##### 自相矛盾
