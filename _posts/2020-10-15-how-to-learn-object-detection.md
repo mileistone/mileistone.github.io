@@ -2,7 +2,6 @@
 layout: post
 comments: true
 title:  "目标检测的精进路径"
-excerpt: "目标检测的精进路径"
 categories: Work
 date: 2020-10-15 11:00:00
 ---
