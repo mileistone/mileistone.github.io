@@ -1,8 +1,7 @@
 ---
 layout: categories
 title: Categories
-comments: false
-menu: Categories
+includelink: true
 permalink: /categories/
 ---
 
