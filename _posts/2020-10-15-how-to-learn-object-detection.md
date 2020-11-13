@@ -1,7 +1,8 @@
 ---
 layout: post
 comments: true
-title:  "目标检测的精进路径"
+title: 目标检测的精进路径
+excerpt: 知其然，知其所以然
 categories: Work
 date: 2020-10-15 11:00:00
 ---
