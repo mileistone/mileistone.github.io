@@ -1,7 +1,8 @@
 ---
 layout: post
 comments: true
-title:  "关于Vision Transformer的一些思考"
+title:  关于Vision Transformer的一些思考
+excerpt: Self-attention与CNN的恩怨情仇
 categories: Work
 date: 2020-11-16 14:00:00
 ---
