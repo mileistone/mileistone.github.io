@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  窗外的列车
-excerpt: 二十五岁的我，坐在列车里，看着窗外转瞬即逝的高中母校里坐在教室中十五岁的我
+excerpt: 二十五岁的我坐在列车里，看着窗外转瞬即逝的高中母校里坐在教室中十五岁的我
 categories: Life
 date: 2017-02-03 22:00:00
 ---
