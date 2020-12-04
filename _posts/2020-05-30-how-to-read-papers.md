@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: 怎样阅读论文
 excerpt: 或许你永远不知道你以前读过的书能在什么时候能够派上用场，但是请保持阅读，因为阅读的过程也是在你大脑中建立认知的过程
-categories: Life
+categories: Work
 date: 2020-05-30 22:00:00
 ---
 
