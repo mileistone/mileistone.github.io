@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:目标检测框回归问题
+title: 目标检测框回归问题
 excerpt: 基于x、y、w、h的回归和基于IoU的回归
 categories: Work
 date: 2020-12-04 22:00:00
