@@ -1,5 +1,5 @@
 # Site settings
-title: mileistone blog
+title: mileistone's blog
 email: xyc_sjtu@163.com
 description: "Vision and Insight"
 baseurl: ""
@@ -19,5 +19,6 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+  
 mathjax: true
 
