@@ -17,7 +17,7 @@ date: 2020-12-04 22:00:00
 
 #### w、h的回归
 Faster R-CNN、YOLO、RetinaNet的w、h回归方式大体相同。假设$$t_w^g$$、$$t_h^g$$为拟合目标，$$t_w^p$$、$$t_h^p$$为网络预测值，
-$$w_g$$为GT框的宽，$$w_a$$为样本对应anchor的框，$$h_g$$为GT框的宽，$$h_a$$为GT框对应的anchor框，$$L_nLoss$$为$$L1Loss$$、$$SmoothL1Loss$$、$$L2Loss$$等。
+$$w_g$$为GT框的宽，$$w_a$$为样本对应anchor框的宽，$$h_g$$为GT框的宽，$$h_a$$为GT框对应的anchor框的高，$$L_nLoss$$为$$L1Loss$$、$$SmoothL1Loss$$、$$L2Loss$$等。
 
 $$t_w^g=log(w_g/w_a)$$
 
@@ -49,7 +49,7 @@ $$loss_y = BCELoss(t_y^p, t_y^g)$$
 
 
 #### 对scale进行reweight
-关于x、y、w、h的回归，YOLO还会对不同scale的框回归loss进行reweight，减小大scale的框回归loss，增大小scal的框回归loss，Fatser R-CNN和RetinaNet没这么做。总体而言，YOLO里很多操作都是比较特立独行的，不过在论文里讲得很少，只有看作者的C代码实现才能发现。
+关于x、y、w、h的回归，YOLO还会对不同scale的框回归loss进行reweight，减小大scale的框回归loss，增大小scale的框回归loss，Fatser R-CNN和RetinaNet没这么做。总体而言，YOLO里很多操作都是比较特立独行的，不过在论文里讲得很少，只有看作者的C代码实现才能发现。
 
 ### 基于IoU的回归
 
