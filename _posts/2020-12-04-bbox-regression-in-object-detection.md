@@ -6,6 +6,7 @@ excerpt: 基于x、y、w、h的回归和基于IoU的回归
 categories: Work
 date: 2020-12-04 22:00:00
 ---
+
 目标检测模型训练的时候有两个任务，框分类（框里是什么）和框回归（框在哪），本文主要讲第二点。
 
 框回归可以分为两大类，基于x，y，w，h的回归（比如[Faster R-CNN](https://arxiv.org/abs/1506.01497)、[YOLO](https://github.com/pjreddie/darknet)、[RetinaNet](https://arxiv.org/abs/1708.02002)里框回归的loss），基于IoU的回归（比如IoU loss、[GIoU loss](https://arxiv.org/abs/1902.09630)、[DIoU loss](https://arxiv.org/abs/1911.08287)、[CIoU loss](https://arxiv.org/abs/1911.08287)）。
