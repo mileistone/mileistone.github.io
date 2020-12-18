@@ -7,6 +7,34 @@ categories: Work
 date: 2020-12-18 22:00:00
 ---
 
+![scene text recognition pipeline](https://github.com/mileistone/mileistone.github.io/blob/main/assets/2020-12-18-scene-text-recognition-survey.png)
+
+场景文字识别（scene text recognition），简称为STR。最近对STR做了一下调研，相关论文可以记录在
+[scene text recognition papers](https://github.com/mileistone/study_resources/tree/master/modeling/supervised_learning/2d/scene_text_recognition)中。
+当前流行的各种方法经过抽象和模块化，可以得到文章开头的pipeline图以及文章末尾的framework。
+
+具体而言，STR可以分为三个模块Image Rectifier、Image To Feature Sequence、Seq2seq。
+
+#### Image Rectifier
+这个模块隐式地学习如何把文字图像进行矫正，使得模型对于弯曲和视角具备一定的鲁棒性。该模块输入和输出均为图像。该模块是可选项，可要可不要。
+
+#### Image To Feature Sequence
+这个模块将图像映射为一个特征序列，即输入为图像，输出为特征序列。该模块可以使用CNNs、RNNs、self-attention等模块。比如只使用CNNs；或者前半部分CNNs，
+后半部分RNNs；或者前半部分CNNs，后半部分self-attention；或者各种排列组合。
+
+CNNs部分，可以只使用类似VGG、ResNet这样额backbone，也可以在后面加一个类似于FPN这样的neck对不同satage的特征进行融合。
+
+RNNs部分，一般使用LSTM或者GRU，可以只单向建模，也可以双向建模。
+
+self-attention部分，可以使用简单的non-local或者使用Transformer的encoder。
+
+#### Seq2seq
+这个模块将特征序列转换为文字序列，即输入为特征序列，输出为文字序列。
+
+一般方法有CTC、RNN decoder、transformer decoder，基本上机器翻译使用的方法这里都可以借用。
+
+---
+
 ### 1. Image Rectifier
 #### 1.1. STN + TPS
 ### 2. Image to Feature Sequence
@@ -29,29 +57,3 @@ date: 2020-12-18 22:00:00
 #### 3.2.2. equipped with attention module
 #### 3.3. Transformer decoder
 #### 3.4. [ACE](https://arxiv.org/abs/1904.08364)
-
----
-
-场景文字识别（scene text recognition），简称为STR。最近对STR做了一下调研，相关论文可以记录在
-[scene text recognition papers](https://github.com/mileistone/study_resources/tree/master/modeling/supervised_learning/2d/scene_text_recognition)中。
-当前流行的各种方法经过抽象和模块化，可以得到文章开头的framework以及pipeline图。
-
-具体而言，STR可以分为三个模块Image Rectifier、Image To Feature Sequence、Seq2seq。
-
-#### Image Rectifier
-这个模块隐式地学习如何把文字图像进行矫正，使得模型对于弯曲和视角具备一定的鲁棒性。该模块输入和输出均为图像。该模块是可选项，可要可不要。
-
-#### Image To Feature Sequence
-这个模块将图像映射为一个特征序列，即输入为图像，输出为特征序列。该模块可以使用CNNs、RNNs、self-attention等模块。比如只使用CNNs；或者前半部分CNNs，
-后半部分RNNs；或者前半部分CNNs，后半部分self-attention；或者各种排列组合。
-
-CNNs部分，可以只使用类似VGG、ResNet这样额backbone，也可以在后面加一个类似于FPN这样的neck对不同satage的特征进行融合。
-
-RNNs部分，一般使用LSTM或者GRU，可以只单向建模，也可以双向建模。
-
-self-attention部分，可以使用简单的non-local或者使用Transformer的encoder。
-
-#### Seq2seq
-这个模块将特征序列转换为文字序列，即输入为特征序列，输出为文字序列。
-
-一般方法有CTC、RNN decoder、transformer decoder，基本上机器翻译使用的方法这里都可以借用。
