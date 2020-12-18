@@ -22,7 +22,7 @@ date: 2020-12-18 22:00:00
 这个模块将图像映射为一个特征序列，即输入为图像，输出为特征序列。该模块可以使用CNNs、RNNs、self-attention等模块。比如只使用CNNs；或者前半部分CNNs，
 后半部分RNNs；或者前半部分CNNs，后半部分self-attention；或者各种排列组合。
 
-CNNs部分，可以只使用类似VGG、ResNet这样额backbone，也可以在后面加一个类似于FPN这样的neck对不同satage的特征进行融合。
+CNNs部分，可以只使用类似VGG、ResNet这样的backbone，也可以在后面加一个类似于FPN这样的neck对不同satage的特征进行融合。
 
 RNNs部分，一般使用LSTM或者GRU，可以只单向建模，也可以双向建模。
 
