@@ -7,7 +7,7 @@ categories: Work
 date: 2020-12-18 22:00:00
 ---
 
-![scene text recognition pipeline](https://github.com/mileistone/mileistone.github.io/blob/main/assets/2020-12-18-scene-text-recognition-survey.png)
+<img src="/assets/2020-12-18-scene-text-recognition-survey.png">
 
 场景文字识别（scene text recognition），简称为STR。最近对STR做了一下调研，相关论文可以记录在
 [scene text recognition papers](https://github.com/mileistone/study_resources/tree/master/modeling/supervised_learning/2d/scene_text_recognition)中。
