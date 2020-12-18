@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: 场景文字识别模型方法梳理
-excerpt: 每个人都有自己的历史和故事
+excerpt: 对STR模型的抽象与模块化
 categories: Work
 date: 2020-12-18 22:00:00
 ---
