@@ -7,7 +7,7 @@ categories: Work
 date: 2020-12-18 22:00:00
 ---
 
-<div class="img_and_cap">
+<div class="imgcap">
 <img src="/assets/2020-12-18-scene-text-recognition-survey.png">
 <div class="thecap">STR pipeline</div>
 </div>
