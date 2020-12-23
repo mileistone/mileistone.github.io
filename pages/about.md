@@ -15,13 +15,13 @@ includelink: true
 
 ###### Open Source Projects
 
-- [YOLO](https://github.com/Tencent/ObjectDetection-OneStageDet)(1800+ star)
+- [YOLO](https://github.com/Tencent/ObjectDetection-OneStageDet) [1800+ star]
 
-- [vedaseg](https://github.com/Media-Smart/vedaseg)(350+ star)
+- [vedaseg](https://github.com/Media-Smart/vedaseg) [350+ star]
 
-- [vedadet](https://github.com/Media-Smart/vedadet)(200+ star)
+- [vedadet](https://github.com/Media-Smart/vedadet) [200+ star]
 
-- [vedastr](https://github.com/Media-Smart/vedastr)(200+ star)
+- [vedastr](https://github.com/Media-Smart/vedastr) [200+ star]
 
 - [vedacls](https://github.com/Media-Smart/vedacls)
 
@@ -35,6 +35,6 @@ includelink: true
 
 ###### Competition and Benchmark
 
-- [SKU-110K](https://github.com/Media-Smart/SKU110K-DenseDet)(SOTA)
+- [SKU-110K](https://github.com/Media-Smart/SKU110K-DenseDet) [SOTA]
 
-- [WIDER FACE](https://github.com/Media-Smart/vedadet/tree/main/configs/trainval/tinaface)(SOTA)
+- [WIDER FACE](https://github.com/Media-Smart/vedadet/tree/main/configs/trainval/tinaface) [SOTA]
