@@ -1,8 +1,8 @@
 ---
 layout: categories
 title: Categories
-includelink: true
 permalink: /categories/
+includelink: true
 ---
 
 <section class="container posts-content">
