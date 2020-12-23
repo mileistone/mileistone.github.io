@@ -11,11 +11,11 @@ date: 2020-12-04 22:00:00
 
 框回归可以分为两大类，基于x，y，w，h的回归（比如[Faster R-CNN](https://arxiv.org/abs/1506.01497)、[YOLO](https://github.com/pjreddie/darknet)、[RetinaNet](https://arxiv.org/abs/1708.02002)里框回归的loss），基于IoU的回归（比如IoU loss、[GIoU loss](https://arxiv.org/abs/1902.09630)、[DIoU loss](https://arxiv.org/abs/1911.08287)、[CIoU loss](https://arxiv.org/abs/1911.08287)）。
 
-### 基于x，y，w，h的回归
+##### 基于x，y，w，h的回归
 
 基于x，y，w，h的回归，可以细分为x、y（GT框的中心）的回归和w、h的回归。
 
-#### w、h的回归
+###### w、h的回归
 Faster R-CNN、YOLO、RetinaNet的w、h回归方式大体相同。假设$$t_w^g$$、$$t_h^g$$为拟合目标，$$t_w^p$$、$$t_h^p$$为网络预测值，
 $$w_g$$为GT框的宽，$$w_a$$为样本对应anchor框的宽，$$h_g$$为GT框的宽，$$h_a$$为GT框对应的anchor框的高，$$L_nLoss$$为$$L1Loss$$、$$SmoothL1Loss$$、$$L2Loss$$等。
 
@@ -29,7 +29,7 @@ $$loss_h=L_nLoss(t_h^p, t_h^g)$$
 
 其中通过anchor的归一化，和取log，可以一定程度增加$$loss_w$$和$$loss_h$$对框scale的invariance。
 
-#### x、y的回归
+###### x、y的回归
 
 x、y的回归方式可以分为两类，一类以YOLO为代表，一类以Faster R-CNN和RetinaNet为代表。后者x、y的回归方式与它们对w、h的回归方式相同，不再赘述。
 
@@ -48,10 +48,10 @@ $$loss_x = BCELoss(t_x^p, t_x^g)$$
 $$loss_y = BCELoss(t_y^p, t_y^g)$$
 
 
-#### 对scale进行reweight
+###### 对scale进行reweight
 关于x、y、w、h的回归，YOLO还会对不同scale的框回归loss进行reweight，减小大scale的框回归loss，增大小scale的框回归loss，Fatser R-CNN和RetinaNet没这么做。总体而言，YOLO里很多操作都是比较特立独行的，不过在论文里讲得很少，只有看作者的C代码实现才能发现。
 
-### 基于IoU的回归
+##### 基于IoU的回归
 
 IoU loss有两个所谓的优点，一个是“Given the choice between optimizing a metric itself vs. a surrogate loss function, the optimal choice is the metric itself”，另一个是IoU loss对框的scale具有invariance特性，大家觉得这个对于框回归而言非常必要。
 
@@ -67,7 +67,7 @@ GIoU loss关注了1，DIoU loss关注了2，CIoU loss关注了2和3。
 
 GIoU loss缓解了IoU loss在预测框和GT框之间IoU为0，梯度为0的问题。实验中GIoU收敛比较慢，DIoU缓解了GIoU这个问题；CIoU基于DIoU，添加了一个关于长宽比的惩罚项。
 
-### 一些想法
+##### 一些想法
 
 1、the optimal choice is the metric itself?
 
@@ -88,4 +88,3 @@ GIoU loss缓解了IoU loss在预测框和GT框之间IoU为0，梯度为0的问�
 3、anchor free
 
 这里我们没提到anchor free的目标检测框回归计算方式，但是思路是类似的，基于上述的思路，可以很自然地想到anchor free目标检测器里框回归会如何设计。
-
