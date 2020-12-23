@@ -17,7 +17,7 @@ includelink: true
 
 - [vedacls](https://github.com/Media-Smart/vedacls)
 
-- [volksdep](https://github.com/Media-Smart/volksdep)
+- [volksdep](https://github.com/Media-Smart/volksdep) [170+ star]
 
 - [cheetahinfer](https://github.com/Media-Smart/cheetahinfer)
 
