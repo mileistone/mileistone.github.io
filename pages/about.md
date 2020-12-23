@@ -29,7 +29,7 @@ includelink: true
 
 - [SKU-110K](https://github.com/Media-Smart/SKU110K-DenseDet) [SOTA]
 
-- [CityPersons] [SOTA]
+- CityPersons [SOTA]
 
 - [WIDER FACE](https://github.com/Media-Smart/vedadet/tree/main/configs/trainval/tinaface) [SOTA]
 
