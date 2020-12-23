@@ -13,14 +13,14 @@ label assignment就是要对目标检测中的anchor box或者anchor point打上
 
 这里提到的论文见[github链接](https://github.com/mileistone/study_resources/blob/master/modeling/supervised_learning/2d/object_detection/label_assignment.md)。
 
-### 背后的逻辑
+###### 背后的逻辑
 归纳和演绎是科学研究中运用得较为广泛的逻辑思维方法。马克思主义认识论认为，一切科学研究都必须运用到归纳和演绎的逻辑思维方法。人类认识活动，总是先接触到个别事物，而后推及一般，又从一般推及个别，如此循环往复，使认识不断深化。归纳就是从个别到一般，演绎则是从一般到个别。
 
 论文调研相当于归纳，根据总结则可以进行演绎。就像门捷列夫在十九世纪归纳各种已知元素的性质而制作出元素周期表，并借此基本成功预测了当时尚未发现的、位于周期表空位中元素的相当一部分性质。
 
 对于label assignment这个问题，我们调研和总结之后，就可以理清各个方法的异同与优劣，同时可以指明后续的研究方向。
 
-### Survey
+###### Survey
 - Faster RCNN/SSD/RetinaNet
     - grid cell中有多个anchor 
     - 通过anchor与GT框之间的IoU判定是positive、negative还是ignore
@@ -63,7 +63,7 @@ label assignment就是要对目标检测中的anchor box或者anchor point打上
     - 其余grid cell为negative
     - 没有ignore
      
-### Summary    
+###### Summary    
 - 有无模型的反馈
     - 无（即label assignment过程与模型前向无关）
         - GT与anchor bbox的IoU（Faster RCNN、SSD、RetinaNet）
