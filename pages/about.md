@@ -5,9 +5,7 @@ permalink: /about/
 includelink: true
 ---
 
-### Social Platform
-
----
+### **Social Platform**
 
 mileistone@[Zhihu](https://zhihu.com)
 
