@@ -5,14 +5,6 @@ permalink: /about/
 includelink: true
 ---
 
-###### Social and Media Platform
-
-- mileistone@[Zhihu](https://zhihu.com)
-
-- lingyi2474@[WeChat](https://weixin.qq.com/)
-
-- everyday_thinking@[WeChat Official Accounts](https://weixin.qq.com/)
-
 ###### Open Source Projects
 
 - [YOLO](https://github.com/Tencent/ObjectDetection-OneStageDet) [1800+ star]
@@ -38,3 +30,11 @@ includelink: true
 - [SKU-110K](https://github.com/Media-Smart/SKU110K-DenseDet) [SOTA]
 
 - [WIDER FACE](https://github.com/Media-Smart/vedadet/tree/main/configs/trainval/tinaface) [SOTA]
+
+###### Social and Media Platform
+
+- mileistone@[Zhihu](https://zhihu.com)
+
+- lingyi2474@[WeChat](https://weixin.qq.com/)
+
+- everyday_thinking@[WeChat Official Accounts](https://weixin.qq.com/)
