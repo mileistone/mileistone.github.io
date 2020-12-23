@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: categories
 title: About
 permalink: /about/
 includelink: true
