@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: 2020，不惑
-excerpt: 2020，年终总结
+excerpt: 2020年的年终总结
 categories: Life
 date: 2020-12-27 22:00:00
 ---
