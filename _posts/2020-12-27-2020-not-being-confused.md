@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: 2020，不惑
 excerpt: 2020，年终总结
-categories: Work
-date: 2020-12-21 22:00:00
+categories: Life
+date: 2020-12-27 22:00:00
 ---
 
 2020年快要结束了，延续2017年以来的习惯，[《2017，这一年》](https://mileistone.github.io/life/2017/12/31/the-year-of-2017/)、[《byebye，2018》](https://mileistone.github.io/life/2018/12/30/byebye-2018/)、[《2019，2019》](https://mileistone.github.io/life/2019/12/28/2019-2019/)，年底照例写一篇年终总结。
