@@ -37,25 +37,25 @@ self-attention部分，可以使用简单的non-local或者使用Transformer的e
 一般方法有CTC、RNN decoder、transformer decoder，基本上机器翻译使用的方法这里都可以借用。
 
 ---
-##### 1. Image Rectifier
-##### 1.1. STN + TPS
-##### 2. Image to Feature Sequence
-##### 2.1. CNNs
-##### 2.1.1. Backbone
-##### 2.1.1.1. VGG
-##### 2.1.1.2. ResNet
-##### 2.1.2. Neck
-##### 2.1.2.1. FPN
-##### 2.2. RNNs (bidirectional or unidirectional)
-##### 2.2.1. LSTM
-##### 2.2.2. GRU
-##### 2.3. self attention
-##### 2.3.1. [non local](https://arxiv.org/abs/1711.07971)
-##### 2.3.1. Transformer encoder
-##### 3. Seq2seq
-##### 3.1. [CTC](https://www.cs.toronto.edu/~graves/icml_2006.pdf)
-##### 3.2. RNNs
-##### 3.2.1. vanilla
-##### 3.2.2. equipped with attention module
-##### 3.3. Transformer decoder
-##### 3.4. [ACE](https://arxiv.org/abs/1904.08364)
+###### 1. Image Rectifier
+###### 1.1. STN + TPS
+###### 2. Image to Feature Sequence
+###### 2.1. CNNs
+###### 2.1.1. Backbone
+###### 2.1.1.1. VGG
+###### 2.1.1.2. ResNet
+###### 2.1.2. Neck
+###### 2.1.2.1. FPN
+###### 2.2. RNNs (bidirectional or unidirectional)
+###### 2.2.1. LSTM
+###### 2.2.2. GRU
+###### 2.3. self attention
+###### 2.3.1. [non local](https://arxiv.org/abs/1711.07971)
+###### 2.3.1. Transformer encoder
+###### 3. Seq2seq
+###### 3.1. [CTC](https://www.cs.toronto.edu/~graves/icml_2006.pdf)
+###### 3.2. RNNs
+###### 3.2.1. vanilla
+###### 3.2.2. equipped with attention module
+###### 3.3. Transformer decoder
+###### 3.4. [ACE](https://arxiv.org/abs/1904.08364)
