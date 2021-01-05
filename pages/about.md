@@ -35,11 +35,11 @@ includelink: true
 
 ###### Publications
 
-- **Xiong, Yichao**, Ning Liu, Zhe Xu, and Ya Zhang. "A parameter partial-sharing cnn architecture for cross-domain clothing retrieval." In *2016 Visual Communications and Image Processing (VCIP)*, pp. 1-4. IEEE, 2016. [Best 10% Paper Award]
+- *Xiong, Yichao*, Ning Liu, Zhe Xu, and Ya Zhang. "A parameter partial-sharing cnn architecture for cross-domain clothing retrieval." In *2016 Visual Communications and Image Processing (VCIP)*, pp. 1-4. IEEE, 2016. [Best 10% Paper Award]
 
-- Huang, Shanshan, **Yichao Xiong**, Ya Zhang, and Jia Wang. "Unsupervised triplet hashing for fast image retrieval." In *Proceedings of the on Thematic Workshops of ACM Multimedia 2017*, pp. 84-92. 2017.
+- Huang, Shanshan, *Yichao Xiong*, Ya Zhang, and Jia Wang. "Unsupervised triplet hashing for fast image retrieval." In *Proceedings of the on Thematic Workshops of ACM Multimedia 2017*, pp. 84-92. 2017.
 
-- Zhu, Yanjia, Hongxiang Cai, Shuhan Zhang, Chenhao Wang, and **Yichao Xiong**. "TinaFace: Strong but Simple Baseline for Face Detection." *arXiv preprint arXiv:2011.13183* (2020).
+- Zhu, Yanjia, Hongxiang Cai, Shuhan Zhang, Chenhao Wang, and *Yichao Xiong*. "TinaFace: Strong but Simple Baseline for Face Detection." *arXiv preprint arXiv:2011.13183* (2020).
 
 ###### Social and Media Platform
 
