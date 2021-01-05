@@ -5,7 +5,7 @@ permalink: /about/
 includelink: true
 ---
 
-###### Open Source Projects
+##### Open Source Projects
 
 - 2018-12 [YOLO](https://github.com/Tencent/ObjectDetection-OneStageDet) [1800+ star]
 
@@ -25,7 +25,7 @@ includelink: true
 
 - 2020-10 [vedadet](https://github.com/Media-Smart/vedadet) [200+ star]
 
-###### Challenges
+##### Challenges
 
 - 2019-07 CityPersons [SOTA]
 
@@ -33,7 +33,7 @@ includelink: true
 
 - 2020-10 [WIDER FACE](https://github.com/Media-Smart/vedadet/tree/main/configs/trainval/tinaface) [SOTA]
 
-###### Publications
+##### Publications
 
 - *Xiong, Yichao*, Ning Liu, Zhe Xu, and Ya Zhang. "A parameter partial-sharing cnn architecture for cross-domain clothing retrieval." In *2016 Visual Communications and Image Processing (VCIP)*, pp. 1-4. IEEE, 2016. [Best 10% Paper Award]
 
@@ -41,7 +41,7 @@ includelink: true
 
 - Zhu, Yanjia, Hongxiang Cai, Shuhan Zhang, Chenhao Wang, and *Yichao Xiong*. "TinaFace: Strong but Simple Baseline for Face Detection." *arXiv preprint arXiv:2011.13183* (2020).
 
-###### Social and Media Platform
+##### Social and Media Platform
 
 - mileistone@[Zhihu](https://zhihu.com)
 
