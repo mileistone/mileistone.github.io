@@ -25,7 +25,7 @@ includelink: true
 
 - 2020-10 [vedadet](https://github.com/Media-Smart/vedadet) [200+ star]
 
-###### Competition and Benchmark
+###### Challenges
 
 - 2019-07 CityPersons [SOTA]
 
