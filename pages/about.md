@@ -27,11 +27,11 @@ includelink: true
 
 ##### Challenges
 
-- 2019-07 CityPersons [SOTA]
+- 2019-07 [CityPersons: YT-PedDet](https://github.com/cvgroup-njust/CityPersons) [SOTA at the time]
 
-- 2020-04 [SKU-110K](https://github.com/Media-Smart/SKU110K-DenseDet) [SOTA]
+- 2020-04 [SKU-110K: DenseDet](https://github.com/Media-Smart/SKU110K-DenseDet) [SOTA at the time]
 
-- 2020-10 [WIDER FACE](https://github.com/Media-Smart/vedadet/tree/main/configs/trainval/tinaface) [SOTA]
+- 2020-10 [WIDER FACE: TinaFace](https://github.com/Media-Smart/vedadet/tree/main/configs/trainval/tinaface) [SOTA at the time]
 
 ##### Publications
 
