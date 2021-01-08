@@ -43,7 +43,7 @@ includelink: true
 
 ##### Interesting Projects
 
-- [Detect objects using image classification model](https://github.com/Media-Smart/cls2det)
+- [Detect object using image classification model](https://github.com/Media-Smart/cls2det)
 
 ##### Social and Media Platform
 
