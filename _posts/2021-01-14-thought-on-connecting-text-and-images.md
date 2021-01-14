@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: 对Connecting Text and Images的理解
-excerpt: 基于x、y、w、h的回归和基于IoU的回归
+excerpt: CLIP的原理与思考
 categories: Work
 date: 2021-01-14 22:00:00
 ---
