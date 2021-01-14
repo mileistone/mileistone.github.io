@@ -16,8 +16,7 @@ date: 2020-12-04 22:00:00
 基于x，y，w，h的回归，可以细分为x、y（GT框的中心）的回归和w、h的回归。
 
 ###### w、h的回归
-Faster R-CNN、YOLO、RetinaNet的w、h回归方式大体相同。假设$$t_w^g$$、$$t_h^g$$为拟合目标，$$t_w^p$$、$$t_h^p$$为网络预测值，
-$$w_g$$为GT框的宽，$$w_a$$为样本对应anchor框的宽，$$h_g$$为GT框的宽，$$h_a$$为GT框对应的anchor框的高，$$L_nLoss$$为$$L1Loss$$、$$SmoothL1Loss$$、$$L2Loss$$等。
+Faster R-CNN、YOLO、RetinaNet的w、h回归方式大体相同。假设$$t_w^g$$、$$t_h^g$$为拟合目标，$$t_w^p$$、$$t_h^p$$为网络预测值，$$w_g$$为GT框的宽，$$w_a$$为样本对应anchor框的宽，$$h_g$$为GT框的宽，$$h_a$$为GT框对应的anchor框的高，$$L_nLoss$$为$$L1Loss$$、$$SmoothL1Loss$$、$$L2Loss$$等。
 
 $$t_w^g=log(w_g/w_a)$$
 
@@ -33,8 +32,7 @@ $$loss_h=L_nLoss(t_h^p, t_h^g)$$
 
 x、y的回归方式可以分为两类，一类以YOLO为代表，一类以Faster R-CNN和RetinaNet为代表。后者x、y的回归方式与它们对w、h的回归方式相同，不再赘述。
 
-YOLO中x、y的回归方式比较奇特。假设$$t_x^g$$、$$t_x^g$$为拟合目标，$$t_y^p$$、$$t_y^p$$为网络预测值,$$w_{featmap}$$为对应head输出feature map的宽，
-$$h_{featmap}$$为对应head输出feature map的高。
+YOLO中x、y的回归方式比较奇特。假设$$t_x^g$$、$$t_x^g$$为拟合目标，$$t_y^p$$、$$t_y^p$$为网络预测值,$$w_{featmap}$$为对应head输出feature map的宽，$$h_{featmap}$$为对应head输出feature map的高。
 
 $$x_g$$为GT框中心的x坐标，$$y_g$$为GT框中心的y坐标，$$x_{cc}$$为GT框匹配上的grid cell的x坐标，，$$y_{cc}$$为GT框匹配上的grid cell的y坐标，
 x坐标的范围缩放到化到$$[0, w_{featmap}]$$，y坐标的范围缩放到到$$[0, h_{featmap}]$$。
