@@ -13,8 +13,7 @@ date: 2020-12-18 22:00:00
 </div>
 
 场景文字识别（scene text recognition），简称为STR。最近对STR做了一下调研，相关论文可以记录在
-[scene text recognition papers](https://github.com/mileistone/study_resources/tree/master/modeling/supervised_learning/2d/scene_text_recognition)中。
-当前流行的各种方法经过抽象和模块化，可以得到文章开头的pipeline图以及文章末尾的framework。
+[scene text recognition papers](https://github.com/mileistone/study_resources/tree/master/modeling/supervised_learning/2d/scene_text_recognition)中。当前流行的各种方法经过抽象和模块化，可以得到文章开头的pipeline图以及文章末尾的framework。
 
 具体而言，STR可以分为三个模块Image Rectifier、Image To Feature Sequence、Seq2seq。
 
@@ -22,8 +21,7 @@ date: 2020-12-18 22:00:00
 这个模块隐式地学习如何把文字图像进行矫正，使得模型对于弯曲和视角具备一定的鲁棒性。该模块输入和输出均为图像。该模块是可选项，可要可不要。
 
 ###### Image To Feature Sequence
-这个模块将图像映射为一个特征序列，即输入为图像，输出为特征序列。该模块可以使用CNNs、RNNs、self-attention等模块。比如只使用CNNs；或者前半部分CNNs，
-后半部分RNNs；或者前半部分CNNs，后半部分self-attention；或者各种排列组合。
+这个模块将图像映射为一个特征序列，即输入为图像，输出为特征序列。该模块可以使用CNNs、RNNs、self-attention等模块。比如只使用CNNs；或者前半部分CNNs，后半部分RNNs；或者前半部分CNNs，后半部分self-attention；或者各种排列组合。
 
 CNNs部分，可以只使用类似VGG、ResNet这样的backbone，也可以在后面加一个类似于FPN这样的neck对不同satage的特征进行融合。
 
