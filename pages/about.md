@@ -49,6 +49,6 @@ includelink: true
 
 - mileistone@[Zhihu](https://zhihu.com)
 
-- lingyi2474@[WeChat](https://weixin.qq.com/)
+- hi_yichao@[WeChat](https://weixin.qq.com/)
 
 - everyday_thinking@[WeChat Official Accounts](https://weixin.qq.com/)
