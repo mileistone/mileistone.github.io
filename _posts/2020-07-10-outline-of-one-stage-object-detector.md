@@ -70,8 +70,10 @@ date: 2019-07-10 22:00:00
       - 1.6.3、CyclicLR
       - 1.6.4、Misc
         - 1.6.4.1、Warmup
+
 ---
-  - 2、Testing
+
+- 2、Testing
     - 2.1、Test time augmention
       - 2.1.1、Multi-scale
       - 2.1.2、Flipping
