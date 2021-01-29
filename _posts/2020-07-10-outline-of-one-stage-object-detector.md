@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: 单阶段目标检测器梳理
-excerpt: anchor free和anchor based方法各有优劣
+excerpt: 纲举目张
 categories: Work
 date: 2019-07-10 22:00:00
 ---
