@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Why anchor
-excerpt: 每个人都有自己的历史和故事
+excerpt: anchor free和anchor based方法各有优劣
 categories: Work
 date: 2019-07-10 22:00:00
 ---
@@ -12,7 +12,8 @@ anchor机制由Faster-RCNN提出，而后成为主流目标检测器的标配，
 
 Faster-RCNN中使用anchor机制的motivation如下：
 
->In contrast to prevalent methods [8], [9], [1], [2] that use pyramids of images (Figure 1, a) or pyramids of filters (Figure 1, b), we introduce novel “anchor” boxes that serve as references a **tmultiple scales and aspect ratios**. Our scheme can be thought of as a pyramid of regression references (Figure 1, c), which avoids enumerating images or filters of multiple scales or aspect ratios.
+>In contrast to prevalent methods [8], [9], [1], [2] that use pyramids of images (Figure 1, a) or pyramids of filters (Figure 1, b), we introduce novel “anchor” boxes that serve as references at multiple scales and aspect ratios. Our scheme can be thought of as a pyramid of regression references (Figure 1, c), which avoids enumerating images or filters of multiple scales or aspect ratios.
+
 即anchor机制要解决的问题是**scale和aspect ratio变化范围大**，之前的解决方法是**pyramids of images**或者**pyramids of filters**。pyramids of images耗时，而pyramids of filters是传统CV的做法，当时CNN-based的CV还没有一种对应pyramids of filters的方案（对应的方案得等到2016年底的FPN，即pyramids of features）。
 
 所以作者提出了一种新的解决方案——anchor机制。
