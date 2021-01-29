@@ -7,7 +7,7 @@ categories: Work
 date: 2019-07-10 22:00:00
 ---
 
-##### 1、为什么需要anchor机制
+##### 一、为什么需要anchor机制
 anchor机制由Faster-RCNN提出，而后成为主流目标检测器的标配，例如SSD、Yolov2、RetinaNet等等。
 
 Faster-RCNN中使用anchor机制的motivation如下：
@@ -32,12 +32,12 @@ Faster-RCNN中使用anchor机制的motivation如下：
 
 简而言之，anchor机制有两个作用：**分而治之**（将scale和aspect ratio空间划分为几个子空间，降低问题难度，降低模型学习难度）和**解决gt box与gt box之间overlap过大导致gt box丢失问题**。同理，pyramids of images和pyramids of features也有上述两个作用。
 
-##### 2、八仙过海，各显神通
+##### 二、八仙过海，各显神通
 上面已经说了，anchor机制是pyramids of images和pyramids of features的替代方案。换一句话说，pyramids of images、pyramids of features和anchor机制是解决同一个问题的三种思路。
 
 比如DenseBox，MTCNN使用的是pyramids of images机制；而FCOS、FoveaBox使用的是pyramids of features机制；Faster-RCNN、Yolov2使用的是anchor机制；SSD、RetinaNet、Yolov3糅合了anchor机制和pyramids of features机制。
 
-##### 3、anchor free一定更好吗？
+##### 三、anchor free一定更好吗？
 最近几个月anchor free的相关文章喷涌而出，大有革掉anchor based检测器命的势头，那么问题来了，anchor free就一定比anchor based的方法更好吗？
 
 anchor free和anchor based方法各有优劣。例如，anchor free的前提是基于图像金字塔或者特征金字塔这个前提，但是无论哪种金字塔都会增加计算，降低检测速度，而anchor机制可以减少金字塔层数，进而提高检测速度。
