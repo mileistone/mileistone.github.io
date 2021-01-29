@@ -29,7 +29,7 @@ date: 2021-01-29 22:00:00
     - correlated modeling of space and time
         - Conv
             - 3D-Conv
-                - C3D, I3D[2D-Cnnv]
+                - C3D, I3D[2D-Conv]
                 - P3D, R(2+1)D[Separable-Conv]
                 - CSN[Separable-Conv]
             - 3D-Conv mixed with 2D-Conv
