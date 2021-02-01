@@ -70,7 +70,7 @@ date: 2021-01-29 22:00:00
 
 2D图像里面一个比较重要的问题是空间的scale，时序动作识别里存在时间的scale问题。2D图像里面一个对应的方案是FPN，时序动作识别里按照类似的思路得到的方案是SlowFast和TPN。
 
-2D图像中另一个方案是ASPP，我没看到时序动作识别领域内有类似论文，但是[Scale Matters: Temporal Scale Aggregation Network for Precise Action Localization in Untrimmed Videos](https://arxiv.org/abs/1908.00707)这篇文章里将ASPP应用到时序动作检测中，我想ASPP应该应用到时序动作识别中也会有收益。
+2D图像中另一个方案是ASPP，我没看到时序动作识别领域内有类似论文，但是[Scale Matters: Temporal Scale Aggregation Network for Precise Action Localization in Untrimmed Videos](https://arxiv.org/abs/1908.00707)这篇文章里将ASPP应用到时序动作检测中，我想ASPP应用到时序动作识别中应该也会有收益。
 
 ##### 做研究的思路
 
