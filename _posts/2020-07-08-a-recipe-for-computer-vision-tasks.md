@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: A Recipe for Computer Vision Tasks
-excerpt: 纲举目张
+excerpt: 计算机视觉任务解题流程图
 categories: Work
 date: 2020-07-08 22:00:00
 ---
