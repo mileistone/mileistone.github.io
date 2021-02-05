@@ -265,7 +265,16 @@ a:visited { color: #205caa; }
   opacity: .6;
   letter-spacing: -1px;
   /*font-style: italic;*/
-  margin: 30px 0;
+  /*margin: 30px 0;*/
+  margin: 0 0 30px;
+}
+
+.post-content blockquote p {
+  display: block; 
+  margin-top: 1em; 
+  margin-bottom: 1em; 
+  margin-left: 0; 
+  margin-right: 0;
 }
 
 .post-content ul,
