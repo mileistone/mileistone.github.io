@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: 深度卷积神经网络中的升采样
 excerpt: 对比深度卷积网络中各种升采样的方式
-categories: Life
+categories: Work
 date: 2018-08-07 22:00:00
 ---
 
