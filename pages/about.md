@@ -41,6 +41,8 @@ includelink: true
 
 - Zhu, Yanjia, Hongxiang Cai, Shuhan Zhang, Chenhao Wang, and **Yichao Xiong**. "TinaFace: Strong but Simple Baseline for Face Detection." *arXiv preprint arXiv:2011.13183* (2020).
 
+- Hongxiang Cai, Jun Sun, and **Yichao Xiong**. "CSTR: A Classification Perspective on Scene Text Recognition." *arXiv preprint arXiv:2102.10884* (2021).
+
 ##### Interesting Projects
 
 - [Detect object using image classification model](https://github.com/Media-Smart/cls2det)
