@@ -11,7 +11,7 @@ includelink: true
 
 - 2019-11 [vedaseg](https://github.com/Media-Smart/vedaseg) [360+ star]
 
-- 2020-02 [vedastr](https://github.com/Media-Smart/vedastr) [220+ star]
+- 2020-02 [vedastr](https://github.com/Media-Smart/vedastr) [260+ star]
 
 - 2020-05 [vedacls](https://github.com/Media-Smart/vedacls)
 
@@ -23,7 +23,7 @@ includelink: true
 
 - 2020-07 [volkscv](https://github.com/Media-Smart/volkscv)
 
-- 2020-10 [vedadet](https://github.com/Media-Smart/vedadet) [250+ star]
+- 2020-10 [vedadet](https://github.com/Media-Smart/vedadet) [260+ star]
 
 ##### Challenges
 
