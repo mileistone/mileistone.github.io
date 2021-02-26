@@ -43,20 +43,13 @@ includelink: true
 
 - Tianze Rong, Zhu, Yanjia, Hongxiang Cai, **Yichao Xiong**. "A Solution to Product detection in Densely Packed Scenes." *arXiv preprint arXiv:2007.11946* (2020).
 
-- Huang, Shanshan, **Yichao Xiong**, Ya Zhang, and Jia Wang. "Unsupervised triplet hashing for fast image retrieval." In *Proceedings of the on Thematic Workshops of ACM Multimedia 2017*, pp. 84-92. 2017.
+- Huang, Shanshan, **Yichao Xiong**, Ya Zhang, and Jia Wang. "Unsupervised Triplet Hashing for Fast Image Retrieval." In *Proceedings of the on Thematic Workshops of ACM Multimedia 2017*, pp. 84-92. 2017.
 
-- **Xiong, Yichao**, Ning Liu, Zhe Xu, and Ya Zhang. "A parameter partial-sharing cnn architecture for cross-domain clothing retrieval." In *2016 Visual Communications and Image Processing (VCIP)*, pp. 1-4. IEEE, 2016. [Best 10% Paper Award]
-
-
-
-
-
-
-
+- **Xiong, Yichao**, Ning Liu, Zhe Xu, and Ya Zhang. "A Parameter Partial-sharing CNN Architecture for Cross-domain Clothing Retrieval." In *2016 Visual Communications and Image Processing (VCIP)*, pp. 1-4. IEEE, 2016. [Best 10% Paper Award]
 
 ##### Interesting Projects
 
-- [Detect object using image classification model](https://github.com/Media-Smart/cls2det)
+- [Detect Objects Using Image Classification Model](https://github.com/Media-Smart/cls2det)
 
 ##### Social and Media Platform
 
