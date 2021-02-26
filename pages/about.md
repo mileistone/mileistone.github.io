@@ -35,13 +35,13 @@ includelink: true
 
 ##### Publications
 
-- Rong Tianze, Hongxiang Cai, **Yichao Xiong**. "An Enhanced Prohibited Items Recognition Model." *arXiv preprint arXiv:2102.12256* (2021).
+- Rong Tianze, Hongxiang Cai, and **Yichao Xiong**. "An Enhanced Prohibited Items Recognition Model." *arXiv preprint arXiv:2102.12256* (2021).
 
 - Cai Hongxiang, Jun Sun, and **Yichao Xiong**. "CSTR: A Classification Perspective on Scene Text Recognition." *arXiv preprint arXiv:2102.10884* (2021).
 
 - Zhu, Yanjia, Hongxiang Cai, Shuhan Zhang, Chenhao Wang, and **Yichao Xiong**. "TinaFace: Strong but Simple Baseline for Face Detection." *arXiv preprint arXiv:2011.13183* (2020).
 
-- Rong Tianze, Zhu, Yanjia, Hongxiang Cai, **Yichao Xiong**. "A Solution to Product Detection in Densely Packed Scenes." *arXiv preprint arXiv:2007.11946* (2020).
+- Rong Tianze, Zhu, Yanjia, Hongxiang Cai, and **Yichao Xiong**. "A Solution to Product Detection in Densely Packed Scenes." *arXiv preprint arXiv:2007.11946* (2020).
 
 - Huang, Shanshan, **Yichao Xiong**, Ya Zhang, and Jia Wang. "Unsupervised Triplet Hashing for Fast Image Retrieval." In *Proceedings of the on Thematic Workshops of ACM Multimedia 2017*, pp. 84-92. 2017.
 
