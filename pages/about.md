@@ -41,7 +41,7 @@ includelink: true
 
 - Zhu, Yanjia, Hongxiang Cai, Shuhan Zhang, Chenhao Wang, and **Yichao Xiong**. "TinaFace: Strong but Simple Baseline for Face Detection." *arXiv preprint arXiv:2011.13183* (2020).
 
-- Rong Tianze, Zhu, Yanjia, Hongxiang Cai, **Yichao Xiong**. "A Solution to Product detection in Densely Packed Scenes." *arXiv preprint arXiv:2007.11946* (2020).
+- Rong Tianze, Zhu, Yanjia, Hongxiang Cai, **Yichao Xiong**. "A Solution to Product Detection in Densely Packed Scenes." *arXiv preprint arXiv:2007.11946* (2020).
 
 - Huang, Shanshan, **Yichao Xiong**, Ya Zhang, and Jia Wang. "Unsupervised Triplet Hashing for Fast Image Retrieval." In *Proceedings of the on Thematic Workshops of ACM Multimedia 2017*, pp. 84-92. 2017.
 
