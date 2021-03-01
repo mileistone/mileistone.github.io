@@ -19,7 +19,7 @@ includelink: true
 
 - 2020-05 [vedacls](https://github.com/Media-Smart/vedacls)
 
-- 2020-02 [vedastr](https://github.com/Media-Smart/vedastr) [260+ star]
+- 2020-02 [vedastr](https://github.com/Media-Smart/vedastr) [270+ star]
 
 - 2019-11 [vedaseg](https://github.com/Media-Smart/vedaseg) [360+ star]
 
