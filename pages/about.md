@@ -15,7 +15,7 @@ includelink: true
 
 - 2020-05 [cheetahinfer](https://github.com/Media-Smart/cheetahinfer) [50+ star]
 
-- 2020-05 [volksdep](https://github.com/Media-Smart/volksdep) [180+ star]
+- 2020-05 [volksdep](https://github.com/Media-Smart/volksdep) [190+ star]
 
 - 2020-05 [vedacls](https://github.com/Media-Smart/vedacls)
 
