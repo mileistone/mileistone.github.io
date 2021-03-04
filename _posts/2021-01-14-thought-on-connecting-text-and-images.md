@@ -41,7 +41,7 @@ NLP supervision其实可以理解为**多维度**的标签，常见的分类任�
 
 经典图像分类的一维标签只包含一种数据集创建者自己设定的较粗的单种concept，比如ImageNet-1K里的“图像包含egyptian cat、Persian cat、tiger cat、alley cat等1000种类别中的哪一种”。
 
-而这个单种concept可以由多种concept组合而来，一方面可以减小歧义，一方面方便迁移，比如颜色、大小等等，NLP supervision就可以达到类似的一种效果，比如“a photo of guacamole, a type of food”这一句话告诉我们这是一张图片，图片里包含的是食物，这个食物是酸橘汁腌鱼。
+而这个单种concept可以由多种concept组合而来，一方面可以减小歧义，一方面方便迁移，比如颜色、大小等等，NLP supervision就可以达到类似的一种效果，比如“a photo of guacamole, a type of food”这一句话告诉我们这是一张图片，图片里包含的是食物，这个食物是鳄梨酱。
 
 ###### zero shot如何理解
 
