@@ -33,7 +33,7 @@ includelink: true
 
 - 2019-07 [CityPersons: YT-PedDet](https://github.com/cvgroup-njust/CityPersons) [SOTA at the time]
 
-##### Publications
+##### Publications/Preprints/Technical Reports
 
 - Rong Tianze, Hongxiang Cai, and **Yichao Xiong**. "An Enhanced Prohibited Items Recognition Model." *arXiv preprint arXiv:2102.12256* (2021).
 
