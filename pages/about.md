@@ -7,7 +7,7 @@ includelink: true
 
 ##### Open Source Projects
 
-- 2020-10 [vedadet](https://github.com/Media-Smart/vedadet) [280+ star]
+- 2020-10 [vedadet](https://github.com/Media-Smart/vedadet) [300+ star]
 
 - 2020-07 [volkscv](https://github.com/Media-Smart/volkscv)
 
@@ -15,15 +15,15 @@ includelink: true
 
 - 2020-05 [cheetahinfer](https://github.com/Media-Smart/cheetahinfer) [50+ star]
 
-- 2020-05 [volksdep](https://github.com/Media-Smart/volksdep) [200+ star]
+- 2020-05 [volksdep](https://github.com/Media-Smart/volksdep) [210+ star]
 
 - 2020-05 [vedacls](https://github.com/Media-Smart/vedacls)
 
-- 2020-02 [vedastr](https://github.com/Media-Smart/vedastr) [300+ star]
+- 2020-02 [vedastr](https://github.com/Media-Smart/vedastr) [320+ star]
 
 - 2019-11 [vedaseg](https://github.com/Media-Smart/vedaseg) [370+ star]
 
-- 2018-12 [YOLO](https://github.com/Tencent/ObjectDetection-OneStageDet) [1800+ star]
+- 2018-12 [YOLO](https://github.com/Tencent/ObjectDetection-OneStageDet) [1900+ star]
 
 ##### Challenges
 
