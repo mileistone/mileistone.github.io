@@ -35,17 +35,17 @@ includelink: true
 
 ##### Publications/Preprints/Technical Reports
 
-- Rong Tianze, Hongxiang Cai, and **Yichao Xiong**. "An Enhanced Prohibited Items Recognition Model." *arXiv preprint arXiv:2102.12256* (2021).
+- Tianze Rong, Hongxiang Cai, and **Yichao Xiong**. "An Enhanced Prohibited Items Recognition Model." *arXiv preprint arXiv:2102.12256* (2021).
 
-- Cai Hongxiang, Jun Sun, and **Yichao Xiong**. "Revisiting Classification Perspective on Scene Text Recognition." *arXiv preprint arXiv:2102.10884* (2021).
+- Hongxiang Cai, Jun Sun, and **Yichao Xiong**. "Revisiting Classification Perspective on Scene Text Recognition." *arXiv preprint arXiv:2102.10884* (2021).
 
-- Zhu, Yanjia, Hongxiang Cai, Shuhan Zhang, Chenhao Wang, and **Yichao Xiong**. "TinaFace: Strong but Simple Baseline for Face Detection." *arXiv preprint arXiv:2011.13183* (2020).
+- Yanjia Zhu, Hongxiang Cai, Shuhan Zhang, Chenhao Wang, and **Yichao Xiong**. "TinaFace: Strong but Simple Baseline for Face Detection." *arXiv preprint arXiv:2011.13183* (2020).
 
-- Rong Tianze, Zhu, Yanjia, Hongxiang Cai, and **Yichao Xiong**. "A Solution to Product Detection in Densely Packed Scenes." *arXiv preprint arXiv:2007.11946* (2020).
+- Tianze Rong, Yanjia Zhu, Hongxiang Cai, and **Yichao Xiong**. "A Solution to Product Detection in Densely Packed Scenes." *arXiv preprint arXiv:2007.11946* (2020).
 
-- Huang, Shanshan, **Yichao Xiong**, Ya Zhang, and Jia Wang. "Unsupervised Triplet Hashing for Fast Image Retrieval." In *Proceedings of the on Thematic Workshops of ACM Multimedia 2017*, pp. 84-92. 2017.
+- Shanshan Huang, **Yichao Xiong**, Ya Zhang, and Jia Wang. "Unsupervised Triplet Hashing for Fast Image Retrieval." In *Proceedings of the on Thematic Workshops of ACM Multimedia 2017*, pp. 84-92. 2017.
 
-- **Xiong, Yichao**, Ning Liu, Zhe Xu, and Ya Zhang. "A Parameter Partial-sharing CNN Architecture for Cross-domain Clothing Retrieval." In *2016 Visual Communications and Image Processing (VCIP)*, pp. 1-4. IEEE, 2016. [Best 10% Paper Award]
+- **Yichao Xiong**, Ning Liu, Zhe Xu, and Ya Zhang. "A Parameter Partial-sharing CNN Architecture for Cross-domain Clothing Retrieval." In *2016 Visual Communications and Image Processing (VCIP)*, pp. 1-4. IEEE, 2016. [Best 10% Paper Award]
 
 ##### Interesting Projects
 
