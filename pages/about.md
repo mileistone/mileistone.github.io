@@ -19,7 +19,7 @@ includelink: true
 
 - 2020-05 [vedacls](https://github.com/Media-Smart/vedacls)
 
-- 2020-02 [vedastr](https://github.com/Media-Smart/vedastr) [320+ star]
+- 2020-02 [vedastr](https://github.com/Media-Smart/vedastr) [330+ star]
 
 - 2019-11 [vedaseg](https://github.com/Media-Smart/vedaseg) [370+ star]
 
@@ -37,7 +37,7 @@ includelink: true
 
 - Rong Tianze, Hongxiang Cai, and **Yichao Xiong**. "An Enhanced Prohibited Items Recognition Model." *arXiv preprint arXiv:2102.12256* (2021).
 
-- Cai Hongxiang, Jun Sun, and **Yichao Xiong**. "CSTR: A Classification Perspective on Scene Text Recognition." *arXiv preprint arXiv:2102.10884* (2021).
+- Cai Hongxiang, Jun Sun, and **Yichao Xiong**. "Revisiting Classification Perspective on Scene Text Recognition." *arXiv preprint arXiv:2102.10884* (2021).
 
 - Zhu, Yanjia, Hongxiang Cai, Shuhan Zhang, Chenhao Wang, and **Yichao Xiong**. "TinaFace: Strong but Simple Baseline for Face Detection." *arXiv preprint arXiv:2011.13183* (2020).
 
