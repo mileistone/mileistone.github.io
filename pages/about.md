@@ -7,7 +7,7 @@ includelink: true
 
 ##### Open Source Projects
 
-- 2020-10 [vedadet](https://github.com/Media-Smart/vedadet) [300+ star]
+- 2020-10 [vedadet](https://github.com/Media-Smart/vedadet) [310+ star]
 
 - 2020-07 [volkscv](https://github.com/Media-Smart/volkscv)
 
