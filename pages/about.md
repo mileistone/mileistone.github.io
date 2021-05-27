@@ -58,3 +58,5 @@ includelink: true
 - hi_yichao@[WeChat](https://weixin.qq.com/)
 
 - everyday_thinking@[WeChat Official Accounts](https://weixin.qq.com/)
+
+- mileistone@[Douban](https://www.douban.com/people/mileistone)
