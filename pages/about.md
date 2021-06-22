@@ -11,11 +11,11 @@ includelink: true
 
 - 2020-07 [volkscv](https://github.com/Media-Smart/volkscv)
 
-- 2020-06 [flexinfer](https://github.com/Media-Smart/flexinfer) [50+ star]
+- 2020-06 [flexinfer](https://github.com/Media-Smart/flexinfer) [60+ star]
 
-- 2020-05 [cheetahinfer](https://github.com/Media-Smart/cheetahinfer) [50+ star]
+- 2020-05 [cheetahinfer](https://github.com/Media-Smart/cheetahinfer) [60+ star]
 
-- 2020-05 [volksdep](https://github.com/Media-Smart/volksdep) [210+ star]
+- 2020-05 [volksdep](https://github.com/Media-Smart/volksdep) [220+ star]
 
 - 2020-05 [vedacls](https://github.com/Media-Smart/vedacls)
 
