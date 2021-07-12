@@ -34,6 +34,7 @@ includelink: true
 - 2019-07 [CityPersons: YT-PedDet](https://github.com/cvgroup-njust/CityPersons) [SOTA at the time]
 
 ##### Publications/Preprints/Technical Reports
+- Chenhao Wang, Hongxiang Cai, and **Yichao Xiong**. "RGB Stream Is Enough for Temporal Action Detection." *arXiv preprint arXiv:2107.04362* (2021).
 
 - Tianze Rong, Hongxiang Cai, and **Yichao Xiong**. "An Enhanced Prohibited Items Recognition Model." *arXiv preprint arXiv:2102.12256* (2021).
 
