@@ -6,7 +6,7 @@ includelink: true
 ---
 
 ##### Open Source Projects
-- 2021-07 [vedadet](https://github.com/Media-Smart/vedatad)
+- 2021-07 [vedatad](https://github.com/Media-Smart/vedatad)
 
 - 2020-10 [vedadet](https://github.com/Media-Smart/vedadet) [340+ star]
 
